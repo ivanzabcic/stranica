@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<h1>Lokalne vijesti</h1>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: left;
+}
+  
+
+
+
+p.a {
+	font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 20px;
+}
+
+p.b {
+	font-family: Cursive, Helvetica, cursive;	
+  font-style: oblique;
+  font-size: 23px;
+}
+
+
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+</head>
+<body>
+
+<div class="navbar">
+	<a href="#Sport">Sport</a>
+	<a href="#Prognoza">Prognoza</a>
+	<div class="dropdown">
+		<button class="dropbtn">Više od nas 
+		<i class="fa fa-caret-down"></i>
+		</button>
+		<div class="dropdown-content">
+		  <a href="#">Link 1</a>
+		  <a href="#">Link 2</a>
+		  <a href="#">Link 3</a>
+		</div>
+	  </div> 
+</div>
+
+<br>
+<h2 class="a">Kćer zaražene u Zagrebu negativna na koronavirus, u školu stižu epidemiolozi</h2>
+
+<p class="a">
+U Hrvatskoj je 19 zaraženih koronavirusom, objavljeno je u srijedu.
+ U četvrtak ujutro ministar zdravstva Vili Beroš potvrdio je za Lokalne vijesti da nema novih slučajeva te da svih 19 pacijenata ima blaže simptome i u dobrom su stanju.
+ Više o tome <a href="http://hr.n1info.com/Vijesti/a490203/Kcer-zarazene-u-Zagrebu-negativna-na-koronavirus-u-skolu-stizu-epidemiolozi.html">ovdje</a>.
+ <br>
+ <img src="https://hr.n1info.com/Picture/206763/jpeg/fran-mihaljevic.jpg" alt="Škola" width="400" height="200">
+ 
+ <h3>Najzarazenije zemlje</h3>
+ <ul style="list-style-type:circle;">
+  <li>Kina</li>
+  <li>Irak</li>
+  <li>Italija</li>
+</ul>
+
+</p>
+
+<br>
+<br>
+<br>
+
+<h2>Trump obustavio putovanja iz Europe u SAD zbog koronavirusa</h2>
+
+<p class="b">
+Američki predsjednik Donald Trump u srijedu je na 30 dana obustavio putovanja iz Europe u SAD-e kako bi se spriječilo širenje koronavirusa u SAD-u.
+Zabrana će se primjenjivati od petka u ponoć po američkom vremenu.
+"Da novi zaraženi ne bi ušli u našu zemlju, obustavit ćemo sva putovanja iz Europe u SAD-e u idućih 30 dana", rekao je Trump u srijedu navečer u televizijskom obraćanju u Bijeloj kući.
+ Poručio je i da se ograničenja putovanja ne odnose na Ujedinjeno Kraljevstvo , gdje je do  sada potvrđeno 460 slučajeva oboljelih od koronavirusa.
+	Za više detalja kliknite <a href="http://hr.n1info.com/Svijet/a490197/Trump-obustavio-putovanja-iz-Europe-u-SAD-zbog-koronavirusa.html">ovdje</a>.
+ <br>
+ <img src="https://hr.n1info.com/Picture/207570/jpeg/Donald-Trump" alt="Predsjednik Trump" width="350" height="150">
+ 
+ <h3>Drzave koje su zabranile putovanja u inozemstvo</h3>
+ <ul style="list-style-type:circle;">
+  <li>SAD</li>
+  <li>SAE</li>
+  <li>Finska</li>
+</ul>
+</p>
+
+<br>
+<br>
+<br>
+<br>
+
+<h3>Američki predjsednici nepoznati javnosti</h3>
+
+<table style="width:50%">
+  <tr>
+    <th>Ime</th>
+    <th>Prezime</th>
+    <th>Broj mandata</th>
+	<th>Početak mandata</th>
+	<th>Kraj mandata</th>
+  </tr>
+  <tr>
+    <td>Jake</td>
+    <td>Smith</td>
+    <td>1</td>
+	<td>1884.</td>
+	<td>1888.</td>
+  </tr>
+  <tr>
+    <td>Sam</td>
+    <td>Willkins</td>
+    <td>2</td>
+	<td>1904.</td>
+	<td>1912.</td>
+  </tr>
+  <tr>
+    <td>Frank</td>
+    <td>Samuels</td>
+    <td>1</td>
+	<td>1802.</td>
+	<td>1806..</td>
+  </tr>
+  <tr>
+    <td>Rich</td>
+    <td>Daniels</td>
+    <td>2</td>
+	<td>1806.</td>
+	<td>1814..</td>
+  </tr>
+  <tr>
+    <td>Daniel</td>
+    <td>Jackson</td>
+    <td>1</td>
+	<td>1856.</td>
+	<td>1860..</td>
+  </tr>
+</table>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+<form action="/php.php" method="post">
+	Ime:<br>
+  <input type="text" name="fname"><br>
+  Prezime:<br>
+  <input type="text" name="lname"><br>
+  E-mail:<br>
+  <input type="email" name="email"><br>
+  Telefon:<br>
+  <input type="text" name="phone"><br>
+  Lozinka:<br>
+  <input type="password" name="pass"><br>
+  
+  
+  <input type="radio" value="male" name="gender" value="male">M<br>
+  
+  <input type="radio" value="female" name="gender" value="female">Ž<br>
+  
+  <input type="radio" value="other" name="gender" value="other">Ostalo<br>
+  
+  
+  
+  <br>
+  <br>
+  
+  <h2>Nagradna igra</h2>
+  <br>
+  1.Pitanje: Gdje je izbio koronavirus?<br>
+  <input type="radio" value="ne" name="p1" value="male">Japan<br>
+  <input type="radio" value="da" name="p1" value="female">Kina<br>
+  <input type="radio" value="ne" name="p1" value="other">Koreja<br>
+  
+  <br>
+  2.Pitanje: Gdje je izbio SARS?<br>
+  <input type="radio" value="ne" name="p2" value="male">Filipini<br>
+  <input type="radio" value="da" name="p2" value="female">Kina<br>
+  <input type="radio" value="ne" name="p2" value="other">Mongolija<br>
+  
+  <br>
+  3.Pitanje: Tko je ubio Johna Lennona?<br>
+  <input type="radio" value="da" name="p3" value="male">Mark Chapman<br>
+  <input type="radio" value="ne" name="p3" value="female">Kurt Johnson<br>
+  <input type="radio" value="ne" name="p3" value="other">Sebastian Dwyer<br>
+  
+  <br>
+  4.Pitanje: U kojoj od ovih drzava nema piramida?<br>
+  <input type="radio" value="ne" name="p4" value="male">Bosna i Hercegovina<br>
+  <input type="radio" value="ne" name="p4" value="female">Egipat<br>
+  <input type="radio" value="da" name="p4" value="other">Iran<br>
+  
+  <br>
+  5.Pitanje: Koliko godina ima Stjepan Stipe Mesic?<br>
+  <input type="radio" value="ne" name="p5" value="male">75<br>
+  <input type="radio" value="da" name="p5" value="female">85<br>
+  <input type="radio" value="ne" name="p5" value="other">95<br>
+  
+  <br>
+  <input type="submit" value="Submit">
+  
+</form>
+
+</body>
+</html>
